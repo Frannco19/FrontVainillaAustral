@@ -1,0 +1,73 @@
+body, html{
+    margin: 0;
+}
+body {
+    background-image: url(./imagen1.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inicio-sesion{
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header{
+    background-color: #87CEEB;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    >*{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+    }
+    img{
+        height: 23px;
+    }
+    p,span{
+        font-weight: lighter;
+    span{
+        font-weight: bold;
+        color: #9c8920;
+    }
+    }
+}
+
+footer {
+    background-color: #87CEEB; 
+    color: #000000; 
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer .redes-sociales {
+    margin-top: 10px;
+}
+
+footer .redes-sociales  a {
+    color: #f7d308;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer .redes-sociales a:hover {
+    text-decoration: underline;
+}
