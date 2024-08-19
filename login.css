@@ -1,0 +1,126 @@
+h1,h2,h3,body{
+    margin: 0;
+}
+
+body {
+    background-image: url(./imagen2.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+    >*{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    img{
+        height: 23px;
+    }
+    p,span{
+        font-weight: lighter;
+    span{
+        font-weight: bold;
+        color: #ffd900;
+    }
+}
+
+.boton{
+    width: 300px;
+}
+}
+
+main {
+    background-color: rgba(49, 49, 49, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 800px;
+    max-width: 90%;
+    margin: auto; 
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #575757;
+    margin-top: 5px;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#olv-contraseña {
+    background-color: #6c757d;
+}
+#olv-contraseña:hover {
+    background-color: #5a6268;
+}
+
+
+footer {
+    background-color: #000000; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+footer .redes-sociales {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer .redes-sociales  a {
+    color: #f4ba0c;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer .redes-sociales a:hover {
+    text-decoration: underline;
+}

@@ -1,11 +1,11 @@
-body, html{
+h1,h2,h3,body{
     margin: 0;
 }
 body {
     background-image: url(./imagen1.jpg);
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -13,22 +13,23 @@ body {
 }
 
 .inicio-sesion{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 header{
-    background-color: #87CEEB;
+    background-color: #000000;
     margin: 0;
     display: flex;
     justify-content: space-between;
+
     >*{
         display: flex;
-        gap: 2px;
+        gap: 10px;
         align-items: center;
     }
     img{
@@ -38,32 +39,89 @@ header{
         font-weight: lighter;
     span{
         font-weight: bold;
-        color: #9c8920;
-    }
+        color: #ffd900;
     }
 }
 
+.boton{
+    width: 300px;
+}
+}
+
+main{
+    margin: 200px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.boton{
+    border: 1px solid white;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: large;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
+    &.importante{
+        background-color: #f8c325;
+        border: unset;
+    }
+}
+
+.p-description{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p{
+
+    font-size: larger;
+}
+
+#botonBuscarAuto{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
-    background-color: #87CEEB; 
-    color: #000000; 
+    background-color: #000000; 
+    color: #ffffff; 
     text-align: center;
     padding: 20px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer p {
     margin: 0;
     font-size: 14px;
+    display: flex;
+    align-items: center;
 }
 
 footer .redes-sociales {
     margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 footer .redes-sociales  a {
-    color: #f7d308;
+    color: #f4ba0c;
     text-decoration: none;
     margin: 0 5px;
 }
