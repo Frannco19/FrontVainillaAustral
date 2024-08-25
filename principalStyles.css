@@ -2,7 +2,7 @@ h1,h2,h3,body{
     margin: 0;
 }
 body {
-    background-image: url(./imagen1.jpg);
+    background-image: url(./imagn1.jpg);
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);

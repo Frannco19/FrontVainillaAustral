@@ -51,8 +51,9 @@ main {
     margin: auto; 
 }
 
-h2 {
+.inicio-diseño {
     margin-bottom: 20px;
+    color: #f4ba0c;
 }
 form {
     display: flex;
@@ -74,19 +75,19 @@ button {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #007BFF;
+    background-color: #f4ba0c;;
     color: rgb(255, 255, 255);
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #f4ba0c;;
 }
 #olv-contraseña {
-    background-color: #6c757d;
+    background-color: #000000;
 }
 #olv-contraseña:hover {
-    background-color: #5a6268;
+    background-color: #f4ba0c;;
 }
 
 
